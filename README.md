@@ -5,8 +5,7 @@
 <h1 align="center">Terminator</h1>
 
 <p align="center">
-  A secure, public RCON console panel for Minecraft servers.<br />
-  Built for communities. Powered by Discord login. Protected from chaos.
+  A public RCON console panel for Minecraft servers.
 </p>
 
 ---
