@@ -15,22 +15,25 @@
 
 **Terminator** is a public-facing, browser-based **RCON console dashboard** for Minecraft servers. It lets users connect with a Discord login and safely interact with your server console.
 
-### Key Concepts:
+### Upcoming:
 
-- 🎮 Let anyone run server commands — safely
-- 🔐 Protect critical commands with a blacklist
-- 🛠️ Admins can review logs, manage commands, and configure behavior
+- 🎮 Options for monitization via Tebex
+- 🤖 Option to use CAPTCHA against bots
+- 🧑‍💼 Add multiple admin user-ids, and add moderators
+- 🌐 Ability to disable the need of oAuth2 accounts
+- 🌐 Ability to add different/multiple oAuth2 providers (eg: discord, google and authentik)
+
+I'm currently not planning to add a native provider for e-mail login, for this you'll need to use a provider such as Okta, Supabase etc.
 
 ---
 
 ## ✨ Features
 
-- ✅ **Discord login** via OAuth2
+- ✅ **OAuth2 Login** (currently discord only)
 - 📡 **RCON command interface**
-- 🚫 **Blacklist protection** (e.g. `/stop`, `/ban`, `/kick`)
-- 🧑‍💼 **Admin dashboard** (by Discord ID)
-- 🧾 **Command logging** for transparency
-- 🧠 **CAPTCHA** on load to stop bots
+- 🚫 **Command Blacklists** (e.g. `/stop`, `/ban`, `/kick`)
+- 🧑‍💼 **Admin dashboard** 
+- 🧾 **Command logging** (with user information)
 
 ---
 
@@ -64,7 +67,7 @@ RCON_PORT=25575
 RCON_PASSWORD=your_rcon_password
 ```
 
-> ⚠️ Replace the values above with your actual credentials and RCON server details.
+> ⚠️ Don't forget to replace the values, it won't work otherwise.
 
 ---
 
@@ -86,7 +89,6 @@ This will start the development server on [localhost:3000](http://localhost:3000
   * View all executed commands
   * Manage the blacklist
   * See who ran what
-* CAPTCHA is shown before command access to block bots
 
 ---
 
@@ -99,23 +101,14 @@ This project uses a **Custom Non-Commercial License**.
 > You **may not** sublicense, patent, relicense, or use this project commercially.
 
 See [`LICENSE`](./LICENSE) for full details.
+(Commercial Usage is considered a minecraft server owned by a brand/company)
 
 ---
 
 ## 🙏 Credits
 
-Created by [@tmrx](https://github.com/tmrxdev)
-Uses [mineflayer](https://github.com/PrismarineJS/mineflayer), [node-rcon](https://github.com/pixelboomdev/node-rcon), and [Discord OAuth2](https://discord.com/developers/docs/topics/oauth2)
+Created by [@tmrxdev](https://github.com/tmrxdev)
+Uses [node-rcon](https://github.com/pixelboomdev/node-rcon), and [Discord OAuth2](https://discord.com/developers/docs/topics/oauth2)
 
----
-
-## ⭐ Support
-
-If you like Terminator, drop a ⭐ on the repo and share it with other Minecraft server admins!
-
-```
-
----
-
-Let me know if you want a matching `LICENSE` file or if you're using any specific stack (Next.js, Express, etc.) so I can add deployment instructions too.
-```
+## 🚀 Demo Server
+We're currently looking into hosting a 24/7 demo server, if you want us to show your server as a demo server, contact me on discord via @tmrxdev.
