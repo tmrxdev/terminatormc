@@ -107,7 +107,7 @@ See [`LICENSE`](./LICENSE) for full details.
 ## 🙏 Credits
 
 Created by [@tmrxdev](https://github.com/tmrxdev)
-Uses [node-rcon](https://github.com/pixelboomdev/node-rcon), and [Discord OAuth2](https://discord.com/developers/docs/topics/oauth2)
+- Uses [node-rcon](https://github.com/pixelboomdev/node-rcon), and [Discord OAuth2](https://discord.com/developers/docs/topics/oauth2)
 
 ## 🚀 Demo Server
 We're currently looking into hosting a 24/7 demo server, if you want us to show your server as a demo server, contact me on discord via @tmrxdev.
