@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/tmrxdev/terminatormc/blob/8e026d782ee5208631698116a89ba26d5f684186/github-terminator-cover.png" alt="Terminator Banner" width="100%" />
+  <img src="https://github.com/tmrxdev/terminatormc/blob/2c47ce4fb07fd208c2a8cdab0dccb7531fe62d8d/github-terminator-cover.png" alt="Terminator Banner" width="100%" />
 </p>
 
 <h1 align="center">Terminator</h1>
