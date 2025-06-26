@@ -12,11 +12,11 @@
 
 ## 🧠 What is Terminator?
 
-**Terminator** is a public-facing, browser-based **RCON console dashboard** for Minecraft servers. It lets users connect with a Discord login and safely interact with your server console.
+**Terminator** is a RCON console, designed for everyone to use. It's made for servers that want everyone to have console access.
 
 ### Upcoming:
 
-- 🎮 Options for monitization via Tebex
+- 🎮 Options for monitization via Tebex (eg. unlimited commands per month)
 - 🤖 Option to use CAPTCHA against bots
 - 🧑‍💼 Add multiple admin user-ids, and add moderators
 - 🌐 Ability to disable the need of oAuth2 accounts
